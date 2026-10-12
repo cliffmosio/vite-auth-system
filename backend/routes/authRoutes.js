@@ -1,6 +1,8 @@
 //routes/authRoutes.js
 const express = require('express');
-const { signup, login, refreshToken, checkAuth, logout, forgotPassword, resetPassword, googleAuth, facebookAuth } = require('../controllers/authController');
+const { signup, login, refreshToken, checkAuth, logout, forgotPassword, 
+    resetPassword, googleAuth, facebookAuth }
+     = require('../controllers/authController');
 
 const router = express.Router();
 
