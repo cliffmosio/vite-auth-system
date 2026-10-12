@@ -9,5 +9,4 @@ const userSchema = new mongoose.Schema({
   resetTokenExpiry: { type: Date },
     createdAt: { type: Date, default: Date.now }
 });
-
 module.exports = mongoose.model('User', userSchema);
